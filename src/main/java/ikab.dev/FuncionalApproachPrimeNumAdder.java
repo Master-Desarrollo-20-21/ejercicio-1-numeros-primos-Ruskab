@@ -14,7 +14,7 @@ public class FuncionalApproachPrimeNumAdder {
 
     public int sumFirst50PrimeNumbers() {
         // La suma de los 50 primeros números primos
-        AtomicInteger counter = new AtomicInteger();
+        AtomicInteger counter = new AtomicInteger(2);
         List<Integer> primeNumbers = new ArrayList<>();
         while (primeNumbers.size() < 50) {
             int actualNumber = counter.getAndIncrement();
